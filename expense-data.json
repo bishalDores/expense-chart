@@ -1,0 +1,90 @@
+{
+  "1M": [
+    {
+      "name": "personal",
+      "value": 150,
+      "color": "#4C49ED"
+    },
+    {
+      "name": "shopping",
+      "value": 90,
+      "color": "#9D9BF4"
+    },
+    {
+      "name": "phone",
+      "value": 60,
+      "color": "#4FD18B"
+    },
+    {
+      "name": "other",
+      "value": 80,
+      "color": "#141197"
+    }
+  ],
+  "6M": [
+    {
+      "name": "personal",
+      "value": 320,
+      "color": "#4C49ED"
+    },
+    {
+      "name": "shopping",
+      "value": 240,
+      "color": "#9D9BF4"
+    },
+    {
+      "name": "phone",
+      "value": 255,
+      "color": "#4FD18B"
+    },
+    {
+      "name": "other",
+      "value": 298,
+      "color": "#141197"
+    }
+  ],
+  "1Y": [
+    {
+      "name": "personal",
+      "value": 950,
+      "color": "#4C49ED"
+    },
+    {
+      "name": "shopping",
+      "value": 930,
+      "color": "#9D9BF4"
+    },
+    {
+      "name": "phone",
+      "value": 738,
+      "color": "#4FD18B"
+    },
+    {
+      "name": "other",
+      "value": 490,
+      "color": "#141197"
+    }
+  ],
+  "ALL TIME": [
+    {
+      "name": "personal",
+      "value": 1800,
+      "color": "#4C49ED"
+    },
+    {
+      "name": "shopping",
+      "value": 1420,
+      "color": "#9D9BF4"
+    },
+    {
+      "name": "phone",
+      "value": 1265,
+      "color": "#4FD18B"
+    },
+    {
+      "name": "other",
+      "value": 1000,
+      "color": "#141197"
+    }
+  ]
+}
