@@ -76,6 +76,54 @@ html {
       }
     }
   }
+  .chart_wrapper {
+    margin: 0 auto 25px;
+    @media (min-width: 40em) {
+      width: 291px;
+    }
+    svg {
+      circle {
+        transition: stroke-width 0.3s;
+
+        &:hover {
+          stroke-width: 12;
+        }
+      }
+    }
+  }
+  .expense_category {
+    list-style: none;
+    display: flex;
+    padding: 0 20px 32px;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    @media (min-width: 40em) {
+      justify-content: space-between;
+    }
+    li {
+      color: #938fa3;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.32px;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      margin-right: 20px;
+      @media (min-width: 40em) {
+        margin-right: 0px;
+      }
+      span {
+        display: inline-block;
+        width: 37px;
+        height: 13px;
+        border-radius: 33px;
+        margin-right: 13px;
+      }
+    }
+  }
 }
 
 /* Small devices such as large phones (640px and up) */

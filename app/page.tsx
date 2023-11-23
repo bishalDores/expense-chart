@@ -2,11 +2,16 @@
 
 import { useState } from "react";
 import data from "../expense-data.json";
+import ExpenseChart from "@/components/ExpenseChart";
 
-type ExpenseType = {
+export type ExpenseType = {
   name: string;
   value: number;
   color: string;
+  itemRatio?: number;
+  angle?: number;
+  offset?: number;
+  filled?: number;
 };
 export default function Home() {
   const [expense, setExpense] = useState({
@@ -37,6 +42,7 @@ export default function Home() {
             );
           })}
         </div>
+        <ExpenseChart expenses={expense.categories} />
       </div>
     </main>
   );
