@@ -89,6 +89,9 @@ html {
           stroke-width: 12;
         }
       }
+      @media (max-width: 700px) {
+        width: 100%;
+      }
     }
   }
   .expense_category {
@@ -121,6 +124,10 @@ html {
         height: 13px;
         border-radius: 33px;
         margin-right: 13px;
+        @media (max-width: 700px) {
+          width: 27px;
+          margin-right: 7px;
+        }
       }
     }
   }
