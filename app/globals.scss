@@ -170,3 +170,37 @@ html {
     }
   }
 }
+
+.error_wrapper {
+  width: 80%;
+  background: #e9ecef;
+  margin: 50px auto;
+  padding: 4rem 2rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  @media (min-width: 40em) {
+    width: 60%;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 1.54;
+  }
+  .btn {
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color: #afadfe;
+    border: none;
+
+    cursor: pointer;
+    a {
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+
+      &:active {
+        color: white;
+      }
+    }
+  }
+}

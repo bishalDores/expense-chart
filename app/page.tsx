@@ -16,7 +16,7 @@ export type ExpenseType = {
 export default function Home() {
   const [expense, setExpense] = useState({
     type: "1M",
-    categories: data["1M"],
+    categories: data["1M"], // setting the initial value
   });
 
   const selectExpenseCategory = (type: string, category: ExpenseType[]) => {
