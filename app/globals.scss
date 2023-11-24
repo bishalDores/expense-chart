@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -69,6 +71,7 @@ html {
         letter-spacing: 0.84px;
         cursor: pointer;
         transition: all 0.5s;
+        font-family: var(--font-helvetica);
       }
       .active {
         color: #003eff;
@@ -78,6 +81,7 @@ html {
   }
   .chart_wrapper {
     margin: 0 auto 25px;
+    position: relative;
     @media (min-width: 40em) {
       width: 291px;
     }
@@ -91,6 +95,40 @@ html {
       }
       @media (max-width: 700px) {
         width: 100%;
+      }
+    }
+    .total_amount {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-43%, -50%);
+
+      h2 {
+        color: #111;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media (min-width: 40em) {
+          font-size: 40px;
+        }
+
+        span {
+          color: #afadfe;
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .decimal {
+          font-family: "Inter", sans-serif;
+          color: #afadfe;
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: normal;
+        }
       }
     }
   }

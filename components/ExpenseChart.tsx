@@ -1,6 +1,7 @@
 "use client";
 
 import { ExpenseType } from "@/app/page";
+import { formatNumbers } from "@/utils/helpers";
 import React from "react";
 
 const ExpenseChart = ({ expenses }: { expenses: ExpenseType[] }) => {
@@ -58,6 +59,7 @@ const ExpenseChart = ({ expenses }: { expenses: ExpenseType[] }) => {
             </circle>
           ))}
         </svg>
+        <div className="total_amount">{formatNumbers(sum)}</div>
       </div>
 
       <ul className="expense_category">
