@@ -64,7 +64,7 @@ const ExpenseChart = ({ expenses }: { expenses: ExpenseType[] }) => {
 
       <ul className="expense_category">
         {expenses.map((item, index) => (
-          <li key={index++} className="item-name">
+          <li key={index++}>
             <span style={{ background: item.color }}></span>
             {item.name}
           </li>
